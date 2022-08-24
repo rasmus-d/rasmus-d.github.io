@@ -1,0 +1,35 @@
+#headline strong {
+    display: block;
+    font-size: 50%;
+    opacity: 75%;
+}
+body {
+    background-image: url("etc/background.jpg");
+    font-family: 'Ubuntu Mono';
+}
+#main-content {
+    background-color: #1c6444;
+    height: 100%;
+    margin: 1% 0% 1% 0%;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+}
+#headline {
+    background-color: #1c6444;
+    margin: 2.5% 5% 1% 5%;
+    border-radius: 15px;
+    padding: 1% 1% 1% 1%;
+}
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+.flex-container div {
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+    text-align: center;
+}
+#main-content div h3 {
+    text-align: center;
+}
