@@ -19,17 +19,32 @@ body {
     margin: 2.5% 5% 1% 5%;
     border-radius: 15px;
     padding: 1% 1% 1% 1%;
+    display: flex;
 }
 .flex-container {
     display: flex;
     width: 100%;
 }
 .flex-container div {
-    border-color: black;
-    border-style: solid;
+    
+    
     width: 50%;
     text-align: center;
 }
-#main-content div h3 {
+#main-content div h2 {
     text-align: center;
+}
+#padding {
+    flex-grow: 1;
+}
+#contact-info {
+    display: flex;
+    flex-direction: column;
+}
+#contact-info img {
+    cursor: pointer;
+    width: 31px;
+    height: 31px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
