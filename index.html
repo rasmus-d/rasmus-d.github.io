@@ -2,34 +2,33 @@
 <head>
     <title>Rasmus Danielsson</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css">
+    -->
+    <style>
+        #contact-info img {
+            cursor: pointer;
+            width: 31px;
+            height: 31px;
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+        body {
+            font-family: 'Ubuntu Mono';
+        }
+    </style>
     <link rel="stylesheet" href="etc/fonts/stylesheet.css">
 </head>
 <body>
-    <div id="headline">
+    <div id="headline" style="text-align: center;">
         <h1>
-            Rasmus Danielsson
-            <strong>> Student && Developer && IT-technician</strong>
+            Rasmus Danielsson <br>
         </h1>
         <div id="padding"></div>
         <div id="contact-info">
-            <img src="etc/git.png" alt="" onclick="newWindow(0)">
-            <img src="etc/placeholder.webp" alt="" onclick="newWindow(1)">
-            <img src="etc/placeholder.webp" alt="" onclick="newWindow(2)">
-        </div>
-    </div>
-    <div id="main-content">
-        <div id="projects">
-            <div>
-                <h2>Projects</h2>
-            </div>
-            <div class="flex-container">
-                <div>Synma</div>
-                <div>SAOB</div>
-                <div>Trie</div>
-            </div>
+            <a href="https://github.com/rasmus-d"></a> <img src="etc/git.png" alt="" onclick="newWindow(0)"> </a>
+            <a href="https://se.linkedin.com/in/rasmus-danielsson-84607616a?trk=people-guest_people_search-card"></a> <img src="etc/linkedin.png" alt="" onclick="newWindow(1)"> </a>
+            <a href="mailto:rasmus@danielsson.dev"> <img src="etc/at.png" alt=""> </a>
         </div>
     </div>
 </body>
-<script src="index.js"></script>
 </html>
