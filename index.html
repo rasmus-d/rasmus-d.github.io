@@ -18,6 +18,31 @@
         }
         body {
             font-family: 'Ubuntu Mono';
+            height: 100%;
+        }
+        #ommig {
+            margin-top: 2%;
+            text-align: center;
+        }
+        #portfolio-header {
+            text-align: center;
+            margin-top: 3%;
+        }
+        #portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            height: 100%;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 5%;
+        }
+        #portfolio div {
+            width: 25%;
+            height: 50%;
+            margin: 0% 3% 0 3%;
         }
     </style>
     <link rel="stylesheet" href="etc/fonts/stylesheet.css">
@@ -29,10 +54,76 @@
         </h1>
         <div id="padding"></div>
         <div id="contact-info">
-            <a href="https://github.com/rasmus-d" target="_blank" rel="noopener noreferrer"> <img src="etc/git.png"> </a>
-            <a href="https://linkedin.com/in/rasmus-d" target="_blank" rel="noopener noreferrer"> <img src="etc/linkedin.png"> </a>
+            <a href="https://github.com/rasmus-d" target="_blank" rel="noopener noreferrer"> 
+                <img src="etc/git.png"> 
+            </a>
+            <a href="https://linkedin.com/in/rasmus-d" target="_blank" rel="noopener noreferrer"> 
+                <img src="etc/linkedin.png"> 
+            </a>
             <a href="mailto:rasmus@danielsson.dev"> <img src="etc/at.png"> </a>
         </div>
     </div>
+    
+    <div id="ommig">
+        <p> First year Computer Science MSc student @<a href="https://www.kth.se/en/studies/master/computer-science/msc-computer-science-1.419974" target="_blank">KTH</a>. </p>
+    </div>
+
+    <h2 id="portfolio-header"> Some of my projects </h2>
+
+    <div id="portfolio">
+        <div>  
+            <a href="https://github.com/IsakNyberg/Synma" target="_blank" rel="noopener noreferrer"> 
+                <h3> Synma </h3>  
+            </a>
+            <a> 
+                A synthesizer in the browser where sound-waves are defined by mathematical functions.
+                Part of a software development course.
+            </a>
+        </div>
+        <div>  
+            <a href="https://github.com/KTH-DD2480-Fundsoft/assignment-2" target="_blank" rel="noopener noreferrer"> 
+                <h3> CI server </h3>  
+            </a>
+            <a>
+                A CI server for Python developed for an advanced course in software development,
+                using flask, requests and unittest to handle webhooks, making github API status
+                updates and a web interface.
+            </a>
+        </div> 
+        <div>  
+            <a href="https://www.diva-portal.org/smash/record.jsf?dswid=9466&pid=diva2%3A1805081&c=14&searchType=SIMPLE&language=en&query=rasmus+danielsson&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all" target="_blank" rel="noopener noreferrer"> 
+                <h3> Bachelor thesis </h3>  
+            </a>
+            <a>
+                My bachelor thesis, together with Isak Nyberg. An investigation of the available
+                methods for finding third-party dependencies in web source code, from a user perspective.
+            </a>
+        </div> 
+        <div> 
+            <a href="https://github.com/rasmus-d/brainf" target="_blank" rel="noopener noreferrer"> 
+                <h3> Brainfuck compiler </h3>  
+            </a>
+            <a> 
+                A compiler of the esoteric programming language "brainfuck", written in Haskell with 
+                a x86 backend.
+            </a>
+        </div> 
+        <div> 
+            <a href="https://github.com/KTH-DD2480-Fundsoft/assignment-1" target="_blank" rel="noopener noreferrer"> 
+                <h3> DECIDE </h3>  
+            </a>
+            <a>
+                A program deciding, based on a set of conditions, whether to launch an interceptor missile.
+                Part of an advanced course in software development.
+            </a>
+        </div> 
+
+
+    </div>
+
+
+
+
+
 </body>
 </html>
